@@ -55,7 +55,7 @@ git clone https://github.com/mgreter/sass2scss
 cd sass2scss # adjust name if you downloaded an archive 
 make # or i.e. `mingw32-make` or `dmake` on windows
 ./sass2scss --help # binary is built in same directory
-sudo cp -a sass2scss /usr/bin # to install it system wide
+sudo cp -a sass2scss /usr/local/bin # to install it system wide
 ```
 
 [1]: https://www.gnu.org/software/make/manual/make.html
@@ -110,4 +110,5 @@ With two pretty (`-p -p`) and comment conversion (`-c`) options, the output beco
 
 Licensed under [the MIT License](./LICENSE).
 
-Copyright (c) Marcel Greter
+Copyright (c) Marcel Greter (Original author)
+Copyright (c) Rastislav @raisty (Reincarnation)
